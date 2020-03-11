@@ -5,7 +5,8 @@
 ### the following line (in a single line).
 
 ### note this is an improved version that removes (,),: from the species name and follows the species name by a white space (leading to shorter species names
-# the file is seaview compatible 
+# the file is seaview compatible
+# not elegant, but it works 
 
 #use strict;
 #use warnings;
