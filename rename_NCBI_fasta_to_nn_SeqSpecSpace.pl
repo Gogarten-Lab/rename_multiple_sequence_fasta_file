@@ -41,6 +41,7 @@ while ( my $line = <IN> ) {
 		$species_strain =~ s/\(/_/g;
 		$species_strain =~ s/\)/_/g;
 		$species_strain =~ s/\:/_/g;
+		 # $species_strain =~ s/\./_/g;
        
 		
 		#print OUT (">"."$count"."_"."$species_strain"." "."$line\n"); #this guaranties unique names
