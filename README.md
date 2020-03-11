@@ -5,7 +5,8 @@ The annotation lines are rewritten to include a number followed by "_: followed 
 The leading number is necessary to create unique names.  
 Following a " _", the original annototion line is continued. E.g., 
 \>10_unclassified_Haloferax _WP_151111062.1 MULTISPECIES: AAA domain-containing protein [unclassified Haloferax]
-The blank space makes most programs use only the number_name to be used as unique sequence designation.  
+The blank space makes most programs use only the number_name to be used as unique sequence designation. 
+The long annotation lines are written to a file ending with "namesonly.seq". The screen output only includes the species_strain names, not numbers and the rest of the annotation line.  
 
 If the species strain designation included whitepace ( or : or ), these are replaced by _, leading to unique species designations compatible with seaview and phyml.  
 The sequences each are on a single line without interruptions by line breaks.   
